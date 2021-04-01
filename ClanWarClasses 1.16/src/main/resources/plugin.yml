@@ -1,0 +1,24 @@
+name: ClanWarClasses
+version: ${project.version}
+main: me.ergo.clanwarclasses.ClanWarClasses
+api-version: 1.16
+
+commands:
+  choose:
+    description: Выбери свой класс!
+    usage: "/choose <class>"
+  stats:
+    description: Информация о прокачке своего персонажа.
+    usage: "/stats"
+  create:
+    description: Позволяет создать зачарованную стрелу.
+    usage: "/create <poison/slowness/jump>"
+  givexp:
+    description: Добавляет игроку опыт класса.
+    usage: "/givexp <player> <amount>"
+  setlevel:
+    description: Устанавливает уровень игрока.
+    usage: "/setlevel <player> <amount>"
+  skills:
+    description: Посмотреть дерево способностей класса.
+    usage: "/skills <class>"
